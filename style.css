@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background: #eff4fd;
+}
+
+.header nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.header nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover{
+  color: orange;
+}
+
+.body-section{
+  display: flex;
+}
+
+.detel{
+  margin-left: 8%;
+  margin-top: 13%; 
+  margin-bottom: 2%;
+}
+
+.detel h1{
+  font-size: 50px;
+  color: #212121;
+  margin-bottom:20px;
+}
+
+span{
+  color: orange;
+}
+
+.detel p{
+  color: #555;
+  line-height: 22px;
+}
+
+.detel a{
+  background: #212121;padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images{
+  flex-grow: 2;
+  width:45%;
+  height:70%;
+  position: absolute;
+  bottom: 0;
+  right:200px;
+  
+}
+
+.images img{
+  height:100%;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+}
+
+.images:hover .profile-bg{
+  bottom: 40px;
+}
+
+.images:hover .profile-img{
+  left: 45%;
+}
+
+.footer{
+  padding: 100px 5%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+
+.footer div{
+  text-align: center;
+}
+
+.column-2{
+  flex-grow: 3;
+}
+
+.footer div h4{
+  font-weight: 300;
+  margin-bottom:30px;
+  letter-spacing: 1px;
+}
+
+.column-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+form input{
+  width: 400px;
+  height:45px;
+  border-radius: 4px;
+  text-align:center;
+  margin-top:20px;
+  outline: none;
+  border: none;
+  margin-bottom: 40px;
+}
+
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color:#fff;
+  border-radius: 30px; 
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
+
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor:pointer;
+}
+
+.copyright{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}

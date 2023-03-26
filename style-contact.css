@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.form-container {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FAF9F6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color:  orange;
+}
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field textarea {
+    padding: 10px;
+    border: 10px #333;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+.form-field input[type="text"]:focus,
+.form-field input[type="email"]:focus,
+.form-field textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.form-field textarea {
+    height: 150px;
+}
+.form-field input[type="submit"] {
+    padding: 10px;
+    color: orange;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    background: transparent;
+    border: 2px solid orange;
+    border-radius: 30px; 
+}
+.form-field input[type="submit"]:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(199, 132, 6, 0.94);
+}
+
+/* Contact details styles */
+.contact-details {
+    flex-basis: 40%;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #FAF9F6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details__item {
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-right: 1px solid #a5a3a3;
+}
+.contact-details__item:last-child {
+    border-right: none;
+}
+.contact-details__item i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact-details__item a {
+    color: #333;
+    text-decoration: none;
+}
+.contact-details__item a:hover {
+    text-decoration: underline;
+}
+
+.social-icons{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+a{
+    color: inherit;
+}

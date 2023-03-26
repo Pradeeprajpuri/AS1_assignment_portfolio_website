@@ -1,0 +1,118 @@
+.main-section{
+    padding: 20px 10px;
+    display: flex;
+}
+
+.profile-image{
+    flex-basis: 40%;
+    padding-top: 5px;
+}
+
+.progress-bar{
+    flex-basis: 60%;
+    padding-top: 80px;
+}
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.bar-holder:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* Styling the h2 tag by giving color, letter spacing, font-size etc.*/
+.bar-holder h3 {
+    align-items: center;
+    color: orange;
+    font-size: 18px;
+}
+
+/* Styling the border and box effect of the progress bar*/
+.bar {
+    margin-top: 10px;
+    border: 1px solid #5a5959;
+    border-radius: 5px;
+    width: 400px;
+    height: 10px;
+    box-shadow: 0 0 10px rgba(245, 159, 0, 0.878);
+}
+
+/* Stylingthe background color of each animation and border radius */
+.percent {
+    display: block;
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px;
+    animation: progress 1500ms ease-in 1;
+}
+
+.python {
+    width: 75%;
+}
+
+.html-css {
+    width: 80%;
+}
+
+.javascript {
+    width: 30%;
+}
+
+.sql {
+    width: 60%;
+}
+
+.software-development {
+    width: 50%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+.mainsection {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-1, .col-2, .col-3 {
+    flex-basis: 30%;
+    padding: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .col-1 {
+    background-color: #fae7e7;
+  }
+  
+  .col-2 {
+    background-color: #e0e0e0;
+  }
+  
+  .col-3 {
+    background-color: #fae7e7;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  
